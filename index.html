@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>WilliamKing</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__logo">
+                <img src="/img/icons:logo/WilliamKing.Logo.svg" alt="WilliamKing">
+            </div>
+            <div class="header__nav">
+                <ul class="header__ul" id="headerUL">
+                    <li class="header__li"> <a class="header__a _active" href="/">About</a></li>
+                    <li class="header__li"> <a class="header__a" href="/">Services</a></li>
+                    <li class="header__li"> <a class="header__a" href="/">Portfolio</a></li>
+                    <li class="header__li"> <a class="header__a" href="/">Testimonials</a></li>
+                    <li class="header__li"> <a class="header__a" href="/">Pricing</a></li>
+                    <li class="header__li"> <a class="header__a" href="/">Contact</a></li>
+                    <span class="material-icons icon-close">close</span>
+                </ul>  
+                <span class="material-icons icon-menu" onclick="navToggle()">menu</span>
+    
+            </div>
+        </header>
+    </div>
+
+    <div class="main-section container flex-space-between">
+        <div class="main-section__info">
+            <div class="main-section__title">I’m William K.</div>
+            <div class="main-section__desc-all">
+                <div class="main-section__desc-all">Web Designer</div>
+                <div class="main-section__desc-all">/</div>
+                <div class="main-section__desc-all">UI Designer</div>
+                <div class="main-section__desc-all">/</div>
+                <div class="main-section__desc-all">Graphic designer</div>
+            </div>
+            <div class="main-section__desc-info">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+            <div class="main-section__btn">Explore My Work</div>
+        </div>
+        <div class="main-section__img">
+            <img src="/img/face.png" alt="face">
+        </div>
+    </div>
+
+    <section class="section services-section">
+        <div class="title">My <span> Services</span></div>
+        <div class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+        <div class="services row">
+            <div class="services__item">
+                <div class="services__icon">
+                    <img src="img/services/1.png" alt="">
+                </div>
+                <div class="services__info">
+                    <div class="services__title">Service title</div>
+                    <div class="services__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                </div>
+            </div>
+            <div class="services__item">
+                <div class="services__icon">
+                    <img src="img/services/2.png" alt="">
+                </div>
+                <div class="services__info">
+                    <div class="services__title">Service title</div>
+                    <div class="services__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                </div>
+            </div>
+            <div class="services__item">
+                <div class="services__icon">
+                    <img src="img/services/3.png" alt="">
+                </div>
+                <div class="services__info">
+                    <div class="services__title">Service title</div>
+                    <div class="services__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                </div>
+            </div>
+            <div class="services__item">
+                <div class="services__icon">
+                    <img src="img/services/4.png" alt="">
+                </div>
+                <div class="services__info">
+                    <div class="services__title">Service title</div>
+                    <div class="services__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                </div>
+            </div>
+            <div class="services__item">
+                <div class="services__icon">
+                    <img src="img/services/5.png" alt="">
+                </div>
+                <div class="services__info">
+                    <div class="services__title">Service title</div>
+                    <div class="services__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                </div>
+            </div>
+            <div class="services__item ">
+                <div class="services__icon">
+                    <img src="img/services/6.png" alt="">
+                </div>
+                <div class="services__info">
+                    <div class="services__title">Service title</div>
+                    <div class="services__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <section class="section portfolio-section">
+        <div class="title">My<span> Portfolio</span></div>
+        <div class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+        <div class="portfolio">
+            <!--1-->
+            <div class="portfolio__item">
+                <img src="/img/portfolio/1.png" alt="1">
+                <a href="/" class="portfolio__search">
+                    <img src="/img/portfolio/search.png" alt="search">
+                </a>
+            </div>
+            <!--2-->
+            <div class="portfolio__item">
+                <img src="/img/portfolio/2.png" alt="2">
+                <a href="/" class="portfolio__search">
+                    <img src="/img/portfolio/search.png" alt="search">
+                </a>
+            </div>
+            <!--3-->
+            <div class="portfolio__item">
+                <img src="/img/portfolio/3.png" alt="3">
+                <a href="/" class="portfolio__search">
+                    <img src="/img/portfolio/search.png" alt="search">
+                </a>
+            </div>
+            <!--4-->
+            <div class="portfolio__item">
+                <img src="/img/portfolio/4.png" alt="4">
+                <a href="/" class="portfolio__search">
+                    <img src="/img/portfolio/search.png" alt="search">
+                </a>
+            </div>
+            <!--5-->
+            <div class="portfolio__item">
+                <img src="/img/portfolio/5.png" alt="5">
+                <a href="/" class="portfolio__search">
+                    <img src="/img/portfolio/search.png" alt="search">
+                </a>
+            </div>
+            <!--6-->
+            <div class="portfolio__item">
+                <img src="/img/portfolio/6.png" alt="6">
+                <a href="/" class="portfolio__search">
+                    <img src="/img/portfolio/search.png" alt="search">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="title">Listen to my<span> customers</span></div>
+        <div class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+        <div class="portfolio row">
+            
+            
+            <div class="customers1 container flex-space-between">
+                <!--1-->
+                <div class="customers1__first">
+                    <div class="customers1__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                    <div class="customers1__info">
+                        <div class="customers1__img"><img src="/img/customers/1.png" alt="1"></div>
+                        <div class="customers1__title">
+                            <div class="customers1__title-first">Leslie Alexander</div>
+                            <div class="customers1__title-second">Dog Trainer</div>
+                        </div>
+                    </div>
+                </div>
+                <!--2-->
+                <div class="customers1__first">
+                    <div class="customers1__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                    <div class="customers1__info">
+                        <div class="customers1__img"><img src="/img/customers/2.png" alt="2"></div>
+                        <div class="customers1__title">
+                            <div class="customers1__title-first">Leslie Alexander</div>
+                            <div class="customers1__title-second">Dog Trainer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            <div class="customers1">
+                <!--3-->
+                <div class="customers1__first">
+                    <div class="customers1__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                    <div class="customers1__info">
+                        <div class="customers1__img"><img src="/img/customers/3.png" alt="3"></div>
+                        <div class="customers1__title">
+                            <div class="customers1__title-first">Leslie Alexander</div>
+                            <div class="customers1__title-second">Dog Trainer</div>
+                        </div>
+                    </div>    
+                </div>
+                <!--4-->
+                <div class="customers1__first">
+                    <div class="customers1__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                    <div class="customers1__info">
+                        <div class="customers1__img"><img src="/img/customers/4.png" alt="4"></div>
+                        <div class="customers1__title">
+                            <div class="customers1__title-first">Leslie Alexander</div>
+                            <div class="customers1__title-second">Dog Trainer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+
+            
+    </section>
+
+    <section class="pricing container">
+
+        <div class="title">My<span> Pricing</span></div>
+        <div class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+        <div class="portfolio row">
+
+        <div class="pricing__mean container">
+            <div class="pricing__first">
+                <div class="pricing__entry">Silver</div>
+                <div class="pricing__number">$99.0</div>
+                <div class="pricing__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                <div class="pricing__content"></div>
+                <div class="pricing__btn">Get Started</div>
+                <div class="pricing__list">
+                    <div class="pricing__icon"><img src="/img/ceheck.svg" alt="check">12 GB Free space</div> 
+                </div>
+                <div class="pricing__list">
+                    <div class="pricing__icon"><img src="/img/ceheck.svg" alt="check">12 GB Free space</div> 
+                </div>
+                <div class="pricing__list">
+                    <div class="pricing__icon"><img src="/img/ceheck.svg" alt="check">12 GB Free space</div>
+                </div>
+                <div class="pricing__list">
+                    <div class="pricing__icon"><img src="/img/ceheck.svg" alt="check">12 GB Free space</div>
+                </div>
+                <div class="pricing__list">
+                    <div class="pricing__icon"><img src="/img/ceheck.svg" alt="check">12 GB Free space</div> 
+                </div>
+            </div>
+
+            <div class="pricing__first">
+                <div class="pricing__entry">Silver</div>
+                <div class="pricing__number">$99.0</div>
+                <div class="pricing__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                <div class="pricing__content"></div>
+                <div class="pricing__btn2">Get Started</div>
+                <div class="pricing__list">
+                    <div class="pricing__icon"><img src="/img/ceheck.svg" alt="check">12 GB Free space</div> 
+                </div>
+                <div class="pricing__list">
+                    <div class="pricing__icon"><img src="/img/ceheck.svg" alt="check">12 GB Free space</div> 
+                </div>
+                <div class="pricing__list">
+                    <div class="pricing__icon"><img src="/img/ceheck.svg" alt="check">12 GB Free space</div>
+                </div>
+                <div class="pricing__list">
+                    <div class="pricing__icon"><img src="/img/ceheck.svg" alt="check">12 GB Free space</div>
+                </div>
+                <div class="pricing__list">
+                    <div class="pricing__icon"><img src="/img/ceheck.svg" alt="check">12 GB Free space</div> 
+                </div>
+            </div>
+
+            <div class="pricing__first">
+                <div class="pricing__entry">Silver</div>
+                <div class="pricing__number">$99.0</div>
+                <div class="pricing__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                <div class="pricing__content"></div>
+                <div class="pricing__btn">Get Started</div>
+                <div class="pricing__list">
+                    <div class="pricing__icon"><img src="/img/ceheck.svg" alt="check">12 GB Free space</div> 
+                </div>
+                <div class="pricing__list">
+                    <div class="pricing__icon"><img src="/img/ceheck.svg" alt="check">12 GB Free space</div> 
+                </div>
+                <div class="pricing__list">
+                    <div class="pricing__icon"><img src="/img/ceheck.svg" alt="check">12 GB Free space</div>
+                </div>
+                <div class="pricing__list">
+                    <div class="pricing__icon"><img src="/img/ceheck.svg" alt="check">12 GB Free space</div>
+                </div>
+                <div class="pricing__list">
+                    <div class="pricing__icon"><img src="/img/ceheck.svg" alt="check">12 GB Free space</div> 
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="contact container">
+        <div class="title">Get<span> in touch</span></div>
+        <div class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+        <div class="contact">
+            
+        <div class="contact">
+            <div class="contact__name">Enter Your Name</div>
+            <div class="contact__email">Enter your email address</div>
+            <div class="contact__message">Enter Message</div>
+            <div class="contact__btn">Send Message</div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class='footer__mean container'>
+                <div class="footer__info">© 2020 All rights reserved. Designed by <span> SA7MAN.</span></div>
+            <div class="footer__social">
+                <div class__twitter>Twitter</div>
+                <div class__dribbble>Dribbble</div>
+                <div class__github>Github</div>
+                <div class__instagram>Instagram</div>
+            </div>
+        </div>
+        
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body{
+    font-family: var(--ff );
+    background-color: var(--c-body);
+}
+
+.container{
+    max-width: calc(1141px + 20px);
+    padding: 20px;
+    margin-inline: auto;
+
+}
+
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section{
+    margin-top: 90px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    max-width: calc(1141px + 20px);
+    padding: 20px;
+    margin-inline: auto;
+    margin-bottom: 77px;
+}

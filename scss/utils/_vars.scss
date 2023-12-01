@@ -1,0 +1,19 @@
+//breakpoints
+$desktop-smal: 1200px;
+$tablet: 992px;
+$tablet-small: 768px;
+$mobile: 576px;
+
+$footer-height: 500px;
+
+:root{
+    --ff:'Rubik', sans-serif;
+    --transition: .2s all ease-in-out;
+
+    --c-primary:  #ED9902;
+    --c-desc: #9B968B;
+    --c-text-white: #fff;
+    --c-border: #eee;
+    --c-body: #21201E;
+    --services-bg: #2D2B29;
+}

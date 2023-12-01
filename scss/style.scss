@@ -1,0 +1,23 @@
+@import 'vendors/reset';
+
+
+@import 'utils/vars';
+@import 'utils/mixins';
+
+
+@import 'layout/base';
+@import '../scss/layout/scrol';
+@import 'layout/grid';
+
+
+
+@import '../scss/components/header';
+@import '../scss/components/mean-section';
+@import '../scss/components/common';
+@import '../scss/components/services';
+@import '../scss/components/portfolio';
+@import '../scss/components/customer';
+@import '../scss/components/pricing';
+@import '../scss/components/contact';
+@import '../scss/components/footer';
+

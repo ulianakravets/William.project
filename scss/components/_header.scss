@@ -1,0 +1,64 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+
+	&__ul {
+		display: flex;
+		align-items: center;
+		gap: 24px;
+
+		@include tablet {
+			position: fixed;
+			width: 70%;
+			height: 100%;
+			flex-direction: column;
+			left: 0;
+			top: 0;
+			background: var(--c-primary);
+			align-items: center;
+			justify-content: center;
+			transform: translateX(-120%);
+			transition: var(--transition);
+		}
+
+		&._active {
+			transform: translateX(0);
+		}
+
+
+
+		.icon-close {
+			position: absolute;
+			top: 40px;
+			right: 40px;
+			color: var(--c-text-white);
+		}
+	}
+
+	&__a {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: normal;
+		color: var(--c-text-white);
+		transition: var(--transition);
+
+		&._active,
+		&:hover {
+			color: var(--c-primary);
+		}
+	}
+}
+
+
+
+.icon-menu,
+.icon-close {
+	cursor: pointer;
+	display: none;
+
+	@include tablet {
+		display: inline-block;
+	}
+}

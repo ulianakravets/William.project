@@ -1,0 +1,44 @@
+.services {
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 26px;
+	@include tablet {
+		grid-template-columns: 1fr;
+	}
+
+    &__item {
+        background-color: var(--services-bg);
+        border-radius: 12px;
+        padding: 32px;
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+
+    }
+
+    &__icon {
+        flex: 0 0 76px;
+    }
+
+    &__info {
+    }
+
+    &__title {
+        color: var(--c-text-white);
+        font-family: var(--ff);
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-bottom: 12px;
+    }
+
+    &__desc {
+        color: var(--c-desc);
+        font-family: var(--ff);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+    }
+}
